@@ -8,3 +8,6 @@ https://ilikegithub88.github.io/weather_GPS_vanillaJS 에 호스팅한 사이트
 
 
 배경 사진은 저작권 없는 사진 사이트에서 가져와 새로고침할 때마다 랜덤으로 바뀝니다.
+
+
+오늘 날짜와 현재 시간도 표시합니다.
