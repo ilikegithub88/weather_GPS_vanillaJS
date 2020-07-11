@@ -22,7 +22,7 @@ function askForName(){
     input.placeholder="Input your name and press enter key";
     input.style.width="200px";
     input.style.height="30px";
-    input.style.fontSize="30px";
+    input.style.fontSize="12px";
     var form=document.createElement("form");
     form.setAttribute("class","submitForm");
     form.appendChild(input);
