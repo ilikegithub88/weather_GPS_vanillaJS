@@ -1,7 +1,7 @@
-https://ilikegithub88.github.io/weather_GPS_vanillaJS 에 호스팅한 사이트입니다.
+https://yoon-ju-lee.github.io/weather_GPS_vanillaJS 에 호스팅한 사이트입니다.
 
 
-사용자의 GPS를 통해 위치 정보를 얻어 그 지역의 날씨를 알려주는 사이트입니다. 현재 기온과 최저, 최고 기온을 표시합니다.
+사용자의 위치 정보를 얻어 그 지역의 날씨를 알려주는 사이트입니다. 현재 기온과 최저, 최고 기온을 표시합니다.
 
 
 빈 칸에 사용자의 이름을 입력하고 엔터 치면 사용자의 이름이 저장됩니다.
