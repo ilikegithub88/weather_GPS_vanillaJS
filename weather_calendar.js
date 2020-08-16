@@ -1,7 +1,7 @@
 var calendar=document.querySelector("#calendar");
-var time=document.querySelector("#clock");
+var time=document.querySelector("#clock"); 
 
-
+ 
 
 function getCalendar(){
     var date = new Date();

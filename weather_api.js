@@ -1,6 +1,4 @@
-const apiKey=require('api_key');
-
-
+ 
 function init(){
     loadLocation();
 }
@@ -32,7 +30,7 @@ function success(position){
         longitude:longitude
     }
     var stringfiedObj=JSON.stringify(obj);
-    localStorage.setItem("location",stringfiedObj);
+    localStorage.setItem("location",stringfiedObj); 
 }
 
 function failure(){
