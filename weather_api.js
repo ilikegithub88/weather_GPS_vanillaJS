@@ -4,6 +4,7 @@ function init(){
 
 init();
 
+
 function loadLocation(){
     var location=localStorage.getItem("location");
     if(location===null){
@@ -36,10 +37,9 @@ function failure(){
     alert("I cannot access to your location information");
 }
 
-const apiKey="7539a35f076b4bedf0f1bf6d3d569106"; 
 
 function getWeather(latitude, longitude){
-    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${"7539a35f076b4bedf0f1bf6d3d569106"}&units=metric`)
     .then(function(response){
         return response.json();
     })
