@@ -1,5 +1,5 @@
 var calendar=document.querySelector("#calendar");
-var time=document.querySelector("#clock"); 
+var time=document.querySelector("#clock");
 
  
 

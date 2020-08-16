@@ -1,5 +1,4 @@
-var nameArea=document.querySelector("#name");
-  
+var nameArea=document.querySelector("#name");  
 
 function init(){
     load();
