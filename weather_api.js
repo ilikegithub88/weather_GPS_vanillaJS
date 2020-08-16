@@ -36,7 +36,8 @@ function success(position){
 function failure(){
     alert("I cannot access to your location information");
 }
-//api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={your api key}
+
+
 function getWeather(latitude, longitude){
     fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`)
     .then(function(response){
