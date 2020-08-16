@@ -1,4 +1,4 @@
-const apiKey="7539a35f076b4bedf0f1bf6d3d569106";
+const apiKey=require('api_key');
 
 
 function init(){
