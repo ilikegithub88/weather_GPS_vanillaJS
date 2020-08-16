@@ -1,4 +1,4 @@
-const apiKey=require('api_key');
+const apiKey = process.env.apiKey;
 
 
 function init(){
